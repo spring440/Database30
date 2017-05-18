@@ -6,7 +6,7 @@ GO
 -- Author: INKYU PARK
 -- Create date: MAY 18 2017
 -- Description:	This procedure insert speaker and presentation
---                      
+-- USAGE : EXEC [dbo].[insertPresentation] <"first_last">, <"presentation_title">                   
 -- =============================================
 -- 
 ALTER PROC insertPresentation(@speaker AS NVARCHAR(200), @presentation AS VARCHAR(400))
